@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · Vaibhav Bhatt</title>
+<meta name="description" content="Vaibhav Bhatt: backend and data engineer building Python, FastAPI and SQL systems.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+<!-- HERO: headline + live "API response" panel -->
+<section class="hero">
+  <div>
+    <p class="status code muted">Business Analyst at Stanza Living</p>
+    <h1>Vaibhav Bhatt</h1>
+    <p class="lead">I build backend services and data pipelines in Python, FastAPI and SQL, and turn messy operational data into decisions.</p>
+    <div class="btn-row">
+      <a class="btn primary" href="projects.html">See my work</a>
+      <a class="btn" data-link="resume" href="#">Download CV</a>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </div>
+  </div>
+  <div class="panel" aria-label="Profile summary as an API response">
+    <div class="panel-head"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="code">GET /vaibhav → 200 OK</span></div>
+<pre class="code"><code id="typed" data-lines='[
+"{",
+"  \"name\": \"Vaibhav Bhatt\",",
+"  \"now\": \"Business Analyst, Stanza Living\",",
+"  \"before\": \"Software Engineer, Auriss Technologies\",",
+"  \"stack\": [\"Python\", \"FastAPI\", \"SQL\", \"Docker\"],",
+"  \"databases\": [\"PostgreSQL\", \"MySQL\", \"Snowflake\"],",
+"  \"education\": \"B.Tech CSE, 2025\",",
+"  \"location\": \"Gurugram, India\"",
+"}"]'>{ … }</code></pre>
+  </div>
+</section>
+
+<!-- QUICK FACTS from the resume -->
+<section class="stats reveal" aria-label="Highlights">
+  <div class="stat"><b>8</b><span class="muted">roles and internships since 2022</span></div>
+  <div class="stat"><b>25%</b><span class="muted">better data reliability in analysis</span></div>
+  <div class="stat"><b>12</b><span class="muted">people led on a live light show</span></div>
+  <div class="stat"><b>500+</b><span class="muted">students reached as U.B.A. president</span></div>
+</section>
+
+<!-- WHAT I DO -->
+<section class="sect">
+  <h2 class="reveal">What I work on</h2>
+  <div class="grid">
+    <article class="card reveal"><h3>Backend services</h3><p class="muted">REST APIs with FastAPI and Pydantic-validated models, third-party integrations and automated workflows.</p></article>
+    <article class="card reveal"><h3>Databases</h3><p class="muted">Schema design and query optimization on PostgreSQL, MySQL and Snowflake.</p></article>
+    <article class="card reveal"><h3>Data and reporting</h3><p class="muted">KPI dashboards, automated reports and data validation with SQL and Pandas.</p></article>
+  </div>
+</section>
+</main>
+<!-- config first, then layout (header, footer, theme, motion) -->
+<script src="js/config.js"></script>
+<script src="js/layout.js"></script>
+</body>
+</html>
